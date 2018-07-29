@@ -10,9 +10,11 @@ function destructivelyPrependKitten(name) {
   return kittens
 }
 
-function destructivelyRemoveLastKitten(array,index) {
+function destructivelyRemoveLastKitten(array) {
   kittens.pop()
   return kittens  
 }
 
-function destruc
+function destructivelyRemoveFirstKitten(array,index) {
+  
+}
