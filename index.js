@@ -24,6 +24,10 @@ function appendKitten(name,array) {
   return [...kittens,"Broom"]
 } 
 
+function prependKitten(name,array) {
+  return ["Broom",...kittens]
+}
+
 
 
 
